@@ -11,7 +11,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 @EnableCircuitBreaker
-@EnableHystrix
 @EnableDiscoveryClient
 @SpringBootApplication
 public class DemoClientApplication {
